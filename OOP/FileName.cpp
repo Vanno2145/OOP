@@ -52,8 +52,9 @@ public:
 		rez.zn = zn / b.zn;
 		return rez;
 	}
-
+	
 };
+
 
 int main() {
 	Drob a;
