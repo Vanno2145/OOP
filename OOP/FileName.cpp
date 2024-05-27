@@ -29,6 +29,7 @@ public:
 
 		rez.ch = ch + b.ch;
 		rez.zn = zn + b.zn;
+
 		return rez;
 	}
 	Drob Minus(Drob& b) {
@@ -71,14 +72,18 @@ int main() {
 
 	if (choice == 1) {
 		c = a.Minus(b);
+		c.Show();
 	}
 	else if (choice == 2) {
 		c = a.Plus(b);
+		c.Show();
 	}
 	else if (choice == 3) {
 		c = a.Multiple(b);
+		c.Show();
 	}
 	else if (choice == 4) {
 		c = a.Division(b);
+		c.Show();
 	}
 }
